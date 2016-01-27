@@ -6,7 +6,7 @@
 [![Quality Score](https://img.shields.io/scrutinizer/g/unicodeveloper/laravel-quotes.svg?style=flat-square)](https://scrutinizer-ci.com/g/unicodeveloper/laravel-quotes)
 [![Total Downloads](https://img.shields.io/packagist/dt/unicodeveloper/laravel-quotesc.svg?style=flat-square)](https://packagist.org/packages/unicodeveloper/laravel-quotes)
 
-> A Laravel 5 Package for providing all kinds of quotes, from business to success to life to inspiring to DJKHALED Quotes
+> A Laravel 5 Package for providing all kinds of quotes, from BUSINESS to SUCCESS to LIFE to INSPIRING to DJKHALED Quotes
 
 ## Installation
 
