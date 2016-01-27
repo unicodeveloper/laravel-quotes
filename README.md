@@ -1,4 +1,4 @@
-# laravel-ngsc
+# laravel-quotes
 
 [![Latest Stable Version](https://poser.pugx.org/unicodeveloper/laravel-quotes/v/stable.svg)](https://packagist.org/packages/unicodeveloper/laravel-quotes)
 [![License](https://poser.pugx.org/unicodeveloper/laravel-quotes/license.svg)](LICENSE.md)
