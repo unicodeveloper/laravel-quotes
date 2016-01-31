@@ -87,4 +87,21 @@ class Quotes {
         return $this->quotes->all();
     }
 
+    /**
+     * Get all the Keys to Success that are Blessed Up!
+     * @return array
+     */
+    public function blessUp()
+    {
+        $blessUp = [];
+
+        foreach($this->quotes->all() as $keys => $success) {
+            if(preg_match('/\bbless up\b/i', $success)) {
+                array_push($blessUp, $success);
+            }
+        }
+
+        return $blessUp;
+    }
+
 }
