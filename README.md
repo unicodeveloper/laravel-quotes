@@ -31,12 +31,12 @@ Also, register the Facade like so:
 ```php
 'aliases' => [
     ...
-    'Quotes' => Unicodeveloper\Quotes\Facades\QuotesFacade::class,
+    'Quotes' => Unicodeveloper\Quotes\Facades\Quotes::class,
     ...
 ]
 ```
 
-Register the Artisan commands by adding this to the `$commands` array in `Kernel.php`
+Register the Artisan commands by adding this to the `$commands` array in `App/Console/Kernel.php`
 
 ```php
     **
