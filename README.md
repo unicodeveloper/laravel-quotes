@@ -6,7 +6,7 @@
 [![Quality Score](https://img.shields.io/scrutinizer/g/unicodeveloper/laravel-quotes.svg?style=flat-square)](https://scrutinizer-ci.com/g/unicodeveloper/laravel-quotes)
 [![Total Downloads](https://img.shields.io/packagist/dt/unicodeveloper/laravel-quotesc.svg?style=flat-square)](https://packagist.org/packages/unicodeveloper/laravel-quotes)
 
-> A Laravel 5 Package for providing all kinds of quotes, from BUSINESS to SUCCESS to LIFE to INSPIRING to DJKHALED Quotes
+> A Laravel 5 Package for providing all kinds of quotes, from PROGRAMMING to DESIGN to DJKHALED Quotes
 
 ## Installation
 
@@ -34,6 +34,21 @@ Also, register the Facade like so:
 ]
 ```
 
+Register the Artisan commands by adding this to the `$commands` array in `Kernel.php`
+
+```php
+    **
+     * The Artisan commands provided by your application.
+     *
+     * @var array
+     */
+    protected $commands = [
+        \Unicodeveloper\Quotes\Commands\Design::class,
+        \Unicodeveloper\Quotes\Commands\Djkhaled::class,
+        \Unicodeveloper\Quotes\Commands\Programming::class,
+    ];
+```
+
 ## Configuration
 
 To get started, you'll need to publish all vendor assets:
@@ -43,6 +58,60 @@ $ php artisan vendor:publish --provider="Unicodeveloper\Quotes\QuotesServiceProv
 ```
 
 ## Usage
+
+Get to Use Facades like so:
+```php
+
+/**
+ * Gets a key to success from DjKhaled
+ * @returns a string
+ */
+Quotes::djkhaled()->anotherOne();
+
+/**
+ * Gets all the Keys To Success #BlessUp
+ * @returns an array
+ */
+Quotes::djkhaled()->all()
+
+**
+ * Gets a programming quote
+ * @returns a string
+ */
+Quotes::programming()->random();
+
+/**
+ * Gets all programming quotes
+ * @returns an array
+ */
+Quotes::programming()->all()
+
+**
+ * Gets a design quote
+ * @returns a string
+ */
+Quotes::design()->random();
+
+/**
+ * Gets all design quotes
+ * @returns an array
+ */
+Quotes::design()->all()
+```
+
+Get to use Artisan Commands like so:
+
+```bash
+php artisan djkhaled:inspire
+```
+
+```bash
+php artisan design:inspire
+```
+
+```bash
+php artisan programming:inspire
+```
 
 ## Contributing
 
