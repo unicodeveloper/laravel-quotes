@@ -84,7 +84,7 @@ Quotes::programming()->random();
  * Gets all programming quotes
  * @returns an array
  */
-Quotes::programming()->all()
+Quotes::programming()->all();
 
 **
  * Gets a design quote
@@ -96,7 +96,7 @@ Quotes::design()->random();
  * Gets all design quotes
  * @returns an array
  */
-Quotes::design()->all()
+Quotes::design()->all();
 ```
 
 Get to use Artisan Commands like so:
@@ -116,6 +116,10 @@ php artisan programming:inspire
 ## Contributing
 
 Please feel free to fork this package and contribute by submitting a pull request to enhance the functionalities.
+
+You can greatly contribute by adding more quotes to `Quotes/programming.php` and `Quotes/design.php`. The format are in the files.
+
+Also, add more `DJ KHALED` Keys to success that I have omitted/left-out. #BlessUp
 
 ## How can I thank you?
 
