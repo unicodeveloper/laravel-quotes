@@ -13,7 +13,7 @@ return [
     |
     */
 
-    "The Key is to be honest, Be honest, but don't play yourself",
+    "The Key is to be honest, Be honest, but dont play yourself",
     "The Key is never be afraid of being yourself",
     "All the great ones jetski",
     "Major Key: Have good relationships. Keep your face clean out there",
@@ -24,10 +24,10 @@ return [
     "The Key to success is to have a hammock",
     "Egg whites, Chicken Sausage, Water. They don't want you to eat",
     "Watch your back, but more importantly when you get out the shower, dry your back. Its a cold world out there",
-    "They don't want you to be healthy",
+    "They dont want you to be healthy",
     "The key is to have every key, the key to open every door",
     "Be a Star. Be a Superstar",
-    "They don't want you to win",
+    "They dont want you to win",
     "Its so real out here right now, the only reason why you see anything is cuz i got the flash on",
     "Almond Milk + Cinnamon Toast Crunch = Major Key To Success",
     "It's important to shape up your hedges. Its like getting a haircut",
@@ -37,8 +37,8 @@ return [
     "Cocoa Butter is the key",
     "The key to more success is to get a massage once a week",
     "The key to more success is to have a lot of pillows. A lot.",
-    "Bless Up. Don't play yourself",
-    "Every conversation you have, including your best friend, start off saing 'This is off the record'",
+    "Bless Up. Dont play yourself",
+    "Every conversation you have, including your best friend, start off saing, This is off the record",
     "Bless up. Egg Whites, Turkey Bacon, Hashbrown, Water",
     "Major Key, Get a pedicure and manicure once a week",
 ];

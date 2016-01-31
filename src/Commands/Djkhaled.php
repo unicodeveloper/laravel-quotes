@@ -29,6 +29,9 @@ class Djkhaled extends Command
     public function handle()
     {
         $quotes = new Quotes();
-        $this->comment(PHP_EOL.$quotes->djkhaled()->anotherOne().PHP_EOL);
+        $keyToSuccess = $quotes->djkhaled()->anotherOne();
+
+        $this->comment(PHP_EOL.$keyToSuccess.PHP_EOL);
+        shell_exec("say {$keyToSuccess}");
     }
 }
