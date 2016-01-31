@@ -1,6 +1,8 @@
 # laravel-quotes
 
+![laravel-quotes](https://cloud.githubusercontent.com/assets/2946769/12701609/637a89c6-c80e-11e5-9b57-f764b1742155.png)
 [![Latest Stable Version](https://poser.pugx.org/unicodeveloper/laravel-quotes/v/stable.svg)](https://packagist.org/packages/unicodeveloper/laravel-quotes)
+![](https://img.shields.io/badge/unicodeveloper-approved-brightgreen.svg)
 [![License](https://poser.pugx.org/unicodeveloper/laravel-quotes/license.svg)](LICENSE.md)
 [![Build Status](https://img.shields.io/travis/unicodeveloper/laravel-quotes.svg)](https://travis-ci.org/unicodeveloper/laravel-quotes)
 [![Quality Score](https://img.shields.io/scrutinizer/g/unicodeveloper/laravel-quotes.svg?style=flat-square)](https://scrutinizer-ci.com/g/unicodeveloper/laravel-quotes)
@@ -104,14 +106,17 @@ Get to use Artisan Commands like so:
 ```bash
 php artisan djkhaled:inspire
 ```
+![djkhaled:inspire](https://cloud.githubusercontent.com/assets/2946769/12701591/e83bf97a-c80d-11e5-8d6a-06e8ec35875d.png)
 
 ```bash
 php artisan design:inspire
 ```
+![design:inspire](https://cloud.githubusercontent.com/assets/2946769/12701590/d7813a5a-c80d-11e5-84d4-d7ab90d07371.png)
 
 ```bash
 php artisan programming:inspire
 ```
+![programming:inspire](https://cloud.githubusercontent.com/assets/2946769/12701589/c52f03c8-c80d-11e5-91b8-23c33c9d4bb6.png)
 
 ## Contributing
 
