@@ -126,7 +126,7 @@ You can greatly contribute by adding more quotes to `Quotes/programming.php` and
 
 Also, add more `DJ KHALED` Keys to success that I have omitted or left-out. #BlessUp
 
-#### Remember: Major Key To Success is to Contribute to Open Source
+###### Remember: Major :key: To Success is to Contribute to Open Source
 
 ## How can I thank you?
 
