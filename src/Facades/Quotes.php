@@ -4,7 +4,7 @@ namespace Unicodeveloper\Quotes\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
-class QuotesFacade extends Facade {
+class Quotes extends Facade {
     /**
    * Get the registered name of the component.
    *
