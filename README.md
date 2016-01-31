@@ -6,7 +6,7 @@
 [![License](https://poser.pugx.org/unicodeveloper/laravel-quotes/license.svg)](LICENSE.md)
 [![Build Status](https://img.shields.io/travis/unicodeveloper/laravel-quotes.svg)](https://travis-ci.org/unicodeveloper/laravel-quotes)
 [![Quality Score](https://img.shields.io/scrutinizer/g/unicodeveloper/laravel-quotes.svg?style=flat-square)](https://scrutinizer-ci.com/g/unicodeveloper/laravel-quotes)
-[![Total Downloads](https://img.shields.io/packagist/dt/unicodeveloper/laravel-quotesc.svg?style=flat-square)](https://packagist.org/packages/unicodeveloper/laravel-quotes)
+[![Total Downloads](https://img.shields.io/packagist/dt/unicodeveloper/laravel-quotes.svg?style=flat-square)](https://packagist.org/packages/unicodeveloper/laravel-quotes)
 
 > A Laravel 5 Package for providing all kinds of quotes, from PROGRAMMING to DESIGN to DJKHALED Quotes
 
