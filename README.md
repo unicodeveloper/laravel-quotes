@@ -124,7 +124,9 @@ Please feel free to fork this package and contribute by submitting a pull reques
 
 You can greatly contribute by adding more quotes to `Quotes/programming.php` and `Quotes/design.php`. The format are in the files.
 
-Also, add more `DJ KHALED` Keys to success that I have omitted/left-out. #BlessUp
+Also, add more `DJ KHALED` Keys to success that I have omitted or left-out. #BlessUp
+
+#### Remember: Major Key To Success is to Contribute to Open Source
 
 ## How can I thank you?
 
