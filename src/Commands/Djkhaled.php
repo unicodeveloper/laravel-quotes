@@ -4,6 +4,7 @@ namespace Unicodeveloper\Quotes\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Foundation\Inspiring;
+use Unicodeveloper\Quotes\Quotes;
 
 class Djkhaled extends Command
 {
@@ -12,14 +13,14 @@ class Djkhaled extends Command
      *
      * @var string
      */
-    protected $signature = 'djhaled:inspire';
+    protected $signature = 'djkhaled:inspire';
 
     /**
      * The console command description.
      *
      * @var string
      */
-    protected $description = 'Display an inspiring quote';
+    protected $description = 'Display a key to success from DJ Khaled';
 
     /**
      * Execute the console command.
@@ -28,6 +29,7 @@ class Djkhaled extends Command
      */
     public function handle()
     {
-        $this->comment(PHP_EOL.Inspiring::quote().PHP_EOL);
+        $quotes = new Quotes();
+        $this->comment(PHP_EOL.$quotes->djkhaled()->anotherOne().PHP_EOL);
     }
 }
