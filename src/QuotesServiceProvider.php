@@ -3,36 +3,37 @@
 namespace Unicodeveloper\Quotes;
 
 use Illuminate\Support\ServiceProvider;
+use Unicodeveloper\Quotes\Commands\Djkhaled;
 
 class QuotesServiceProvider extends ServiceProvider {
 
-  /*
-   * Indicates if loading of the provider is deferred.
-   *
-   * @var bool
-   */
-  protected $defer = false;
+    /*
+    * Indicates if loading of the provider is deferred.
+    *
+    * @var bool
+    */
+    protected $defer = false;
 
-  /**
-   * Register the application services.
-   *
-   * @return void
-   */
-  public function register()
-  {
+    /**
+    * Register the application services.
+    *
+    * @return void
+    */
+    public function register()
+    {
       $this->app->bind('laravel-quotes', function() {
 
           return new Quotes;
 
       });
-  }
+    }
 
-  /**
-   * Get the services provided by the provider
-   * @return array
-   */
-  public function provides()
-  {
+    /**
+    * Get the services provided by the provider
+    * @return array
+    */
+    public function provides()
+    {
       return ['laravel-quotes'];
-  }
+    }
 }
