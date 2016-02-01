@@ -18,6 +18,7 @@ script:
 after_script:
   - wget https://scrutinizer-ci.com/ocular.phar
   - php ocular.phar code-coverage:upload --format=php-clover coverage.clover
+  - php vendor/bin/coveralls -v
 
 notifications:
   slack: red-creek:5lI8ybvl6YTcCNPosh4TE13h

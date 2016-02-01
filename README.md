@@ -5,6 +5,7 @@
 ![](https://img.shields.io/badge/unicodeveloper-approved-brightgreen.svg)
 [![License](https://poser.pugx.org/unicodeveloper/laravel-quotes/license.svg)](LICENSE.md)
 [![Build Status](https://img.shields.io/travis/unicodeveloper/laravel-quotes.svg)](https://travis-ci.org/unicodeveloper/laravel-quotes)
+[![Coverage Status](https://coveralls.io/repos/unicodeveloper/laravel-quotes/badge.svg?branch=master&service=github)](https://coveralls.io/github/unicodeveloper/laravel-quotes?branch=master)
 [![Quality Score](https://img.shields.io/scrutinizer/g/unicodeveloper/laravel-quotes.svg?style=flat-square)](https://scrutinizer-ci.com/g/unicodeveloper/laravel-quotes)
 [![Total Downloads](https://img.shields.io/packagist/dt/unicodeveloper/laravel-quotes.svg?style=flat-square)](https://packagist.org/packages/unicodeveloper/laravel-quotes)
 
