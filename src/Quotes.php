@@ -30,10 +30,10 @@ class Quotes {
     private function getQuotes($category = null)
     {
         if(is_null($category)) {
-            return require_once("Quotes/programming.php");
+            return require("Quotes/programming.php");
         }
 
-        return require_once("Quotes/{$category}.php");
+        return require("Quotes/{$category}.php");
     }
 
     /**
