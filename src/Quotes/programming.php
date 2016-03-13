@@ -61,4 +61,6 @@ return [
     "One of my most productive days was throwing away 1000 lines of code. - Ken Thompson",
     "Deleted code is debugged code. - Jeff Sickel",
     "Controlling complexity is the essence of computer programming. - Brian Kernighan",
+    "Just heard a QA \"Engineeer\" ask a customer on the phone - \"What made you wanna do THAT!??\" - Kevin Marois",
+    "The main purpose of multidimensional arrays in C++ is to confuse beginners and generate an endless stream of questions about how to allocate them dynamically, about how to delete them, or why they can't be converted to pointers to pointers. –  R. Martinho Fernandes",
 ];
